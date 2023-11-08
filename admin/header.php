@@ -45,13 +45,13 @@
                 <ul class="navbar-nav ms-auto">
                     <!-- Fix the fa-solid class -->
                     <li class="nav-item">
-                        <a class="nav-link fs-6" href="index.php"> <i class="fa-solid fa-house"></i> Dashboard</a>
+                        <a class="nav-link fs-6" href="../admin/index.php"> <i class="fa-solid fa-house"></i> Dashboard</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fs-6" href="costumer.php"> <i class="fa-solid fa-user"></i> Costumer</a>
+                        <a class="nav-link fs-6" href="../costumer/costumer.php"> <i class="fa-solid fa-user"></i> Costumer</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fs-6" href="#"> <i class="fa-solid fa-note-sticky"></i> Transaction</a>
+                        <a class="nav-link fs-6" href="../transaksi/transaksi.php"> <i class="fa-solid fa-note-sticky"></i> Transaction</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link fs-6" href="#"> <i class="fa-solid fa-paperclip"></i> Report</a>
@@ -61,12 +61,13 @@
                             data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <i class="fa-solid fa-gear"></i> Settings
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="ganti_pas.php">Ganti Password</a>
+                        <div class="dropdown-menu fs-6" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="../admin/ganti_pas.php"><i class="fa-solid fa-lock"></i>  Ganti Password</a>
+                            <a class="dropdown-item" href="../harga/harga_per_kilo.php"><i class="fa-solid fa-signal"></i>  Harga per Kilo</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fs-6" href="logout.php"><i class="fa-solid fa-right-from-bracket"></i> Log Out</a>
+                        <a class="nav-link fs-6" href="../admin/logout.php"><i class="fa-solid fa-right-from-bracket"></i> Log Out</a>
                     </li>
                 </ul>
             </div>
